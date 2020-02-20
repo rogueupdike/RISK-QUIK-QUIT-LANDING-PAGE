@@ -1,0 +1,13 @@
+header img {
+  grid-column: 1;
+  width: 100px;
+  height: 100px;
+  position: center;
+  padding: 1rem; 
+}
+
+header {
+  display: grid;
+  grid-template-columns: 3fr 6fr 3fr;
+  background-color: transparent; 
+}
